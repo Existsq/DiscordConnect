@@ -1,0 +1,4 @@
+name: DiscordConnect
+version: '${project.version}'
+main: discordconnect.discordconnect.DiscordConnect
+api-version: '1.20'
