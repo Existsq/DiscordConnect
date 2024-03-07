@@ -11,6 +11,9 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+/Users/exist/IdeaProjects/DiscordConnect/target
+/Users/exist/IdeaProjects/DiscordConnect/DiscordConnect.iml
+/Users/exist/IdeaProjects/DiscordConnect/dependency-reduced-pom.xml
 
 # AWS User-specific
 .idea/**/aws.xml
