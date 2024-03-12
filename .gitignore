@@ -152,3 +152,6 @@ Temporary Items
 *.icloud
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all,macos
+
+!/src/main/resources/plugin.yml
+/pom.xml
