@@ -1,6 +1,7 @@
 package discordconnect.discordconnect;
 import discordconnect.discordconnect.Commands.*;
 
+import discordconnect.discordconnect.Handlers.ChatHandler;
 import discordconnect.discordconnect.Handlers.PlayerHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,6 +19,7 @@ public final class DiscordConnect extends JavaPlugin {
         getCommand("distance").setExecutor(new Distance());
         getCommand("heal").setExecutor(new Heal());
         new PlayerHandler(this);
+        new ChatHandler(this);
 
     }
 
