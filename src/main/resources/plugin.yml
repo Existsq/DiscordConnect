@@ -34,3 +34,9 @@ commands:
     aliases: heal
     permission: heal
     permission-message: You do not have permission
+  pinfo:
+    description: Show the information in console about player
+    usage: /pinfo
+    aliases: pinfo
+    permission: pinfo
+    permission-message: You do not have permission

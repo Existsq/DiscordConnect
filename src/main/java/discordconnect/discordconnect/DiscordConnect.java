@@ -18,6 +18,8 @@ public final class DiscordConnect extends JavaPlugin {
         getCommand("toss").setExecutor(new Toss());
         getCommand("distance").setExecutor(new Distance());
         getCommand("heal").setExecutor(new Heal());
+        getCommand("pinfo").setExecutor(new PlayerInfo());
+
         new PlayerHandler(this);
         new ChatHandler(this);
 
