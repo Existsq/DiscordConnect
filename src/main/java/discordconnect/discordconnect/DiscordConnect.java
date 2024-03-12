@@ -1,5 +1,7 @@
 package discordconnect.discordconnect;
+import discordconnect.discordconnect.Commands.*;
 
+import discordconnect.discordconnect.Handlers.PlayerHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -9,6 +11,14 @@ public final class DiscordConnect extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         Bukkit.getLogger().info("DiscordConnector is working!");
+
+        getCommand("gm").setExecutor(new Gamemode());
+        getCommand("burn").setExecutor(new Burn());
+        getCommand("toss").setExecutor(new Toss());
+        getCommand("distance").setExecutor(new Distance());
+        getCommand("heal").setExecutor(new Heal());
+        new PlayerHandler(this);
+
     }
 
     @Override
