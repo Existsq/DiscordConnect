@@ -18,7 +18,7 @@ public class ChatHandler implements Listener {
         Player player = event.getPlayer();
         String message = event.getMessage();
 
-
+        Bukkit.getLogger().info(message + "(by " + player.getName() + ")");
         return event.getMessage();
     }
 
